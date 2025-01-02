@@ -18,5 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
         // Update the displayed hex code
         hexCode.textContent = randomColor;
+        hexCode.style.textTransform = 'uppercase';
     });
 });
